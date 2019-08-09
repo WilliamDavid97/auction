@@ -1,0 +1,72 @@
+/* ===========
+GLOBALS
+   ===========*/
+
+body {  font-family: 'Open sans', sans-serif;    font-size: 14px;    line-height: 30px;    color: #666666;    width: 100%;overflow-x: hidden;     background: #ffffff;}
+a { color: #555555; }
+
+#page { margin: 0 auto; border-top:0px; border-bottom:0px;}
+
+h1, .h1, h2, .h2, h3, .h3,  h5, .h5, h6, .h6 { font-weight:300;  } 
+
+/* ===========
+COLORS 
+   =========== */
+
+.bg-primary { background:#0f7dd3 !important; }
+.text-primary { color:#0f7dd3 !important; }
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #0f7dd3 !important;
+    border-color: #0f7dd3;
+}
+
+.bg-secondary { background:#ff7306 !important; border-color: #ff7306; }
+.text-secondary { color:#ff7306 !important; }
+
+ .clock{ background-color: #0e7dd3 ; }
+/* ===========
+MAIN HEADER  
+   ===========*/
+.header-nav3 .ppt-menu>ul>li>a {  height: 60px !important;    line-height: 60px !important; color:#fff !important; }
+ 
+.header-nav3 .btn-end .btn  { height: 100%;    line-height: 45px; width:100%; } 
+@media (min-width: 992px) {
+#menu-menu { margin-left:-20px; }
+}
+
+/* ===========
+FOOTER
+   ===========*/
+footer { color:#b7b7b7; }
+footer .socials{overflow: hidden;}
+footer .socials .social{display: inline-block;width: 40px;height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b7b7b7;margin-right: 10px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+footer.widget.style2 .socials .social:hover{color: #b7b7b7;}
+footer{font-size:14px;}
+footer .links{padding:0px; list-style:none;}
+footer .links li{line-height:40px; border-bottom:1px solid rgba(221, 221, 221, 0.06);}
+footer .links li a{color:#b7b7b7;}
+footer .cards img{opacity:0.8}
+footer .copyright { opacity:0.5; line-height:30px; }
+/* ===========
+SEARCH
+   ===========*/
+.main-search .form-holder1 .form-control, .form-holder1 .bootstrap-select .dropdown-toggle {
+    background: #ffffff !important;
+ 
+}
+
+/*-----------global.css-------------------*/
+
+
+.single .box-count-down .box-count{ font-size:31px;  width: 22%;  height:90px;   float: left;     border-radius: 4px;  text-align: center;  padding: 2px;  position: relative;   margin-right: 13px;  
+
+    background: #0e7dd3;
+    color: #FFF;
+    border: 2px solid #0e7dd3;
+}
+.single .box-count-down .box-count:last-child{ margin-right:0px; }
+.single .box-count-down .dot{  display: none;}
+.single .box-count-down .box-count:before{  width: 100%;  height: 100%;    float: left;  content: '';} 
+.single .box-count-down .number{  position: absolute;  width: 100%;  left: 0;  top: 10px;  font-weight:bold;}
+.single .box-count-down .text{  position: absolute;  width: 100%;  left: 0;  bottom: 8px;  font-size: 14px;}
